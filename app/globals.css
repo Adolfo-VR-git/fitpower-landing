@@ -1,22 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+  /* Definimos tus colores de marca aquí */
+  --color-fit-orange: rgb(255, 78, 0);
+  --color-fit-blue: rgb(10, 25, 47);
+  --color-fit-gray: #666;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {

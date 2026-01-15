@@ -18,25 +18,25 @@ export default function Header() {
 
           <nav className="hidden md:flex grow justify-center space-x-8">
             <Link
-              href="#"
+              href="#inicio"
               className="text-fit-gray hover:text-fit-orange transition-colors"
             >
               Inicio
             </Link>
             <Link
-              href="#"
+              href="#beneficios"
               className="text-fit-gray hover:text-fit-orange transition-colors"
             >
               Beneficios
             </Link>
             <Link
-              href="#"
+              href="#precios"
               className="text-fit-gray hover:text-fit-orange transition-colors"
             >
               Precios
             </Link>
             <Link
-              href="#"
+              href="#footer"
               className="text-fit-gray hover:text-fit-orange transition-colors"
             >
               Contacto
